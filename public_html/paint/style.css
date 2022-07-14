@@ -1,0 +1,34 @@
+
+.containerall {
+    width: 720px;
+    height: 720px;
+    border-width: thin;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.colordiv {
+    box-sizing: border-box;
+    margin: 0px;
+    border-width: thin;
+    border-style: solid;
+    border-color: grey;
+    height: 45px;
+    width: 45px;
+}
+
+.horizontalrow {
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+    width: 720px;
+}
+
+.blackbg {
+    background-color: black;
+}
