@@ -8,13 +8,13 @@ const choice = document.querySelectorAll('button');
 const container = document.querySelector('#container');
 
 const gameResult = document.createElement('p');
-gameResult.classList.add('gameResult');
+gameResult.classList.add('gameresult');
 
 const gameText = document.createElement('p');
-gameText.classList.add('gameText');
+gameText.classList.add('gametext');
 
 const overallWin = document.createElement('p');
-overallWin.classList.add('overallWin');
+overallWin.classList.add('overallwin');
 
 choice.forEach((button) => {
     button.addEventListener('click', () => {

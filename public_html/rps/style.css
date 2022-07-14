@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+    margin: auto;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#backbtn {
+    text-align: center;
+}
+
+#buttonbox {
+    margin: auto;
+    height: 25px;
+}
+
+.gametext, .gameresult, .overallwin {
+    text-align: center;
+}

@@ -32,3 +32,8 @@
 .blackbg {
     background-color: black;
 }
+
+#backbtn {
+    margin: auto;
+    text-align: center;
+}
