@@ -67,7 +67,12 @@ body {
 
 .portitem {
     border: solid;
-    border-color: red;
+    border-color: grey;
+    height: 250px;
+    width: 250px;
+}
+
+.img {
     height: 250px;
     width: 250px;
 }
