@@ -76,3 +76,10 @@ body {
     height: 250px;
     width: 250px;
 }
+
+.bio {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 20px;
+
+}
