@@ -1,8 +1,10 @@
 body {
     font-family: "Helvetica", sans-serif;
+    background-color: #2A3C53;
+    color: #DEFFA0;
 }
 #banner {
-    background-color: darkblue;
+    background-color: #697C86;
 }
 #bannerbuttons {
     width: 960px;
@@ -33,13 +35,13 @@ body {
     position: absolute;
 }
 .toplinks {
-    color: lightgrey;
+    color: #DEFFA0;
     text-decoration: none;
     -webkit-transition: color 1s;
     transition: color 250ms;
 }
 .toplinks:hover {
-    color:grey;
+    color: whitesmoke;
 }
 #opensentence {
     text-align: center;
@@ -78,8 +80,13 @@ body {
 }
 
 .bio {
-    margin-left: 12rem;
-    margin-right: 12rem;
+    margin-left: 12vw;
+    margin-right: 12vw;
     font-size: 20px;
 
+}
+
+a {
+    text-decoration: underline;
+    color: #9BEF00;
 }
