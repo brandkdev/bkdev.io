@@ -86,6 +86,25 @@ body {
 
 }
 
+#intro {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#shortbio {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 25px;
+}
+
+#portrait {
+    width: 13vw;
+    border-radius: 50%;
+    border-style: solid;
+}
 a {
     text-decoration: underline;
     color: #9BEF00;
