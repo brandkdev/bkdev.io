@@ -134,7 +134,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-style: dashed;
     align-self: center;
     gap: 5vh;
 }
