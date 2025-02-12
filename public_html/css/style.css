@@ -3,14 +3,18 @@ body {
     background-color: #2A3C53;
     color: #DEFFA0;
 }
+
 #banner {
     background-color: #697C86;
+    border-radius: 25px;
 }
+
 #bannerbuttons {
     width: 960px;
     margin:0 auto;
     height: 100px;
 }
+
 #buttonsstyleb {
     list-style-type: none;
     margin: 0;
@@ -20,6 +24,7 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
 .items {
     display: block;
     text-align: center;
@@ -31,20 +36,25 @@ body {
     font-size: 20px;
     color: lightgrey;
 }
+
 #bklogo {
     position: absolute;
 }
+
 .toplinks {
     color: #DEFFA0;
     text-decoration: none;
     -webkit-transition: color 1s;
     transition: color 250ms;
 }
+
 .toplinks:hover {
     color: whitesmoke;
 }
+
 #opensentence {
     text-align: center;
+    font-size: 2.5vh;
 }
 
 #bklogo {
@@ -77,6 +87,8 @@ body {
 .img {
     height: 250px;
     width: 250px;
+    border-style: solid;
+    border-radius: 15px;
 }
 
 .bio {
@@ -91,20 +103,46 @@ body {
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
 }
 
-#shortbio {
+.portraitItem {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content:space-between;
-    gap: 25px;
+    gap: 5vw;
+}
+
+.introItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
 }
 
 #portrait {
-    width: 250px;
+    width: 350px;
     border-radius: 50%;
     border-style: solid;
 }
+
+#projContainer {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: dashed;
+    align-self: center;
+    gap: 5vh;
+}
+
+.itemdesc {
+    width: 25vw;
+}
+
 a {
     text-decoration: underline;
     color: #9BEF00;
